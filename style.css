@@ -4,13 +4,33 @@ body {
     color: #99BC85;
 }
 
+a:link {
+    color: #99BC85;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #99BC85;
+    text-decoration: none;
+}
 .nav {
 }
 
 button {
     border: none;
     background-color: transparent;
+    border-radius: 10px;
 }
 button:hover {
-    background-color:rgb(207, 216, 202);
+    animation: hovering 0.3s;
+    background-color: #E4EFE7;
 }
+
+@keyframes hovering {
+    from {
+        transform: scale(0.75);
+    }
+    to {
+        transform: scale(1);
+    }
+}   
