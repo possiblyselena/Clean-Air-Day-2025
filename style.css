@@ -1,4 +1,16 @@
 body {
-    background-color: #FAF1E6;
+    background-image: url('Index.png');
+    background-size: cover;
     color: #99BC85;
+}
+
+.nav {
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+button:hover {
+    background-color:rgb(207, 216, 202);
 }
